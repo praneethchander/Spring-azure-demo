@@ -11,7 +11,7 @@ public class DemoApplication {
 
 	@GetMapping("/message")
 	public String getMessage() {
-		return "Hi am praneeth";
+		return "Hi am praneeth123";
 	}
 	public static void main(String[] args) {
 		SpringApplication.run(DemoApplication.class, args);
